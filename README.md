@@ -7,14 +7,15 @@ Integrated tools:
 
 - [Cypress.io](https://www.cypress.io/)
 - [Github Action](https://docs.github.com/en/free-pro-team@latest/actions)
+- [Deployed with AWS ECR & ECS](https://docs.github.com/en/free-pro-team@latest/actions)
 
 
 ### Developer Tool
-`ng serve` for a dev server with auto-detection. Navigate to `http://localhost:4200/`.
-`npm run test` will run integration test with [Cypress.io](https://www.cypress.io/).
-`ng build` to build the project. se the `--prod` flag for a production build
+- `ng serve` for a dev server with auto-detection. Navigate to `http://localhost:4200/`.
+- `npm run test` will run integration test with [Cypress.io](https://www.cypress.io/).
+- `ng build` to build the project. se the `--prod` flag for a production build
 
-`ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 
 ### Further help

@@ -6,21 +6,21 @@ on:
         description: 'Description of manual dispatch'
         default: 'Dispatch Github Action for CI/CD'
 jobs:
-  # test:
-  #   name: Test
-  #   runs-on: ubuntu-16.04
+  test:
+    name: Test
+    runs-on: ubuntu-16.04
 
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v1
-  #     - name: Cypress run
-  #       uses: cypress-io/github-action@v2
-  #       with:
-  #         start: npm start
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
   deploy:
-    # needs: test
     name: Deploy
     runs-on: ubuntu-latest
+    needs: test
 
     steps:
     - name: Checkout
