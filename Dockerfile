@@ -1,7 +1,8 @@
-FROM node:alpine AS build
+FROM node:12.16.3-alpine AS build
 WORKDIR /app
 COPY . .
-RUN npm ci && npm run build
+RUN npm ci
+RUN npm run build --prod
 # RUN mkdir -p /app/dist/ng-templates
 # RUN touch /app/dist/ng-templates/index.html
 # RUN echo 'hello world' > /app/dist/ng-templates/index.html
