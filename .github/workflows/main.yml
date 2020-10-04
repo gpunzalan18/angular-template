@@ -1,10 +1,10 @@
 name: Main
 on: 
   workflow_dispatch:
-  inputs:
-    msg:
-      description: 'Description of manual dispatch'
-      default: 'Dispatch Github Action for CI/CD'
+    inputs:
+      msg:
+        description: 'Description of manual dispatch'
+        default: 'Dispatch Github Action for CI/CD'
 jobs:
   test:
     runs-on: ubuntu-16.04
