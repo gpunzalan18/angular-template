@@ -12,14 +12,3 @@ COPY --from=build /app/dist/ng-templates /usr/share/nginx/html
 EXPOSE 80
 
 
-# FROM cypress/included:3.2.0
-
-# WORKDIR /app
-
-# COPY ./cypress ./cypress
-# COPY ./cypress.json ./cypress.json
-# COPY ./package.json ./package.json 
-
-# RUN npm run cypress:run
-
-
