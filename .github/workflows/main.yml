@@ -1,7 +1,7 @@
-name: With server
+name: Continuous Integration
 on: [push]
 jobs:
-  cypress-run:
+  unit-test:
     runs-on: ubuntu-16.04
     steps:
       - name: Checkout
