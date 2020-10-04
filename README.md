@@ -1,16 +1,16 @@
 # ng-templates
 
-## Project Overview 
+## Project Overview
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
-Integrated tools:
+### Integrated tools:
 
 - [Cypress.io](https://www.cypress.io/)
 - [Github Action](https://docs.github.com/en/free-pro-team@latest/actions)
-- [Deployed with AWS ECR & ECS](https://docs.github.com/en/free-pro-team@latest/actions)
+- [Deployed with AWS ECR & ECS](https://github.com/gpunzalan18/ng-templates/blob/main/.github/workflows/main.yml)
 
 
-### Developer Tool
+### Developer Tools
 - `ng serve` for a dev server with auto-detection. Navigate to `http://localhost:4200/`.
 - `npm run test` will run integration test with [Cypress.io](https://www.cypress.io/).
 - `ng build` to build the project. se the `--prod` flag for a production build

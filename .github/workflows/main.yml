@@ -1,4 +1,4 @@
-name: ng-temapltes CD/CD
+name: ng-templates CD/CD
 on: 
   workflow_dispatch:
     inputs:
