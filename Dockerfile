@@ -3,13 +3,13 @@ WORKDIR /app
 COPY . .
 RUN npm ci
 RUN npm run build --prod
-# RUN mkdir -p /app/dist/ng-templates
-# RUN touch /app/dist/ng-templates/index.html
-# RUN echo 'hello world' > /app/dist/ng-templates/index.html
-# RUN ls -a && cat /app/dist/ng-templates/index.html
+# RUN mkdir -p /app/dist/angular-template
+# RUN touch /app/dist/angular-template/index.html
+# RUN echo 'hello world' > /app/dist/angular-template/index.html
+# RUN ls -a && cat /app/dist/angular-template/index.html
 
 FROM nginx:alpine
-COPY --from=build /app/dist/ng-templates /usr/share/nginx/html
+COPY --from=build /app/dist/angular-template /usr/share/nginx/html
 EXPOSE 80
 
 

@@ -1,6 +1,6 @@
-version: '3.3'
+version: "3.3"
 services:
-  ng-templates-docker:
+  angular-template-docker:
     build: ./
     ports:
-      - '80:80'
+      - "80:80"
