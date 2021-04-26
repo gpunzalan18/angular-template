@@ -46,13 +46,13 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "angular-template-ecs-container"
+      "name": "angular-template-container"
     }
   ],
   "placementConstraints": [],
   "memory": "128",
   "taskRoleArn": null,
-  "family": "ContainerDeployment",
+  "family": "AngularTemplateDeployment",
   "pidMode": null,
   "requiresCompatibilities": ["EC2"],
   "networkMode": null,
